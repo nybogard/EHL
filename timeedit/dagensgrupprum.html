@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="refresh" content="600">
-		<title>EHL TimeEdit - Dagens grupprum</title>
-	</head>
-	<style>
-		html,body{
-			width: 100%;
-			height: 100%;
-			margin: 0px;
-		}
-	</style>
-	<body>
-		<iframe name="sve" frameborder="0" scrolling="yes" style="height: 100%; width: 100%; float: left;" height="100%" width="100%" align="left" src="https://cloud.timeedit.net/lu/web/ehl1/ri1XX036Z80074QQ03Z61Y7Y07y35Y075Q0mXY524m553111Y4476X7647456308XY349761X06035933XY43601Y4846Y4X6615807357404YY62X2144X07683025YX64715405614X8Y146776YX205o0Xm41174Q5647920ZY42QY717bQZY52Y7642X1625c00034Xu4064Z4n0cWYQ52u895WZZ3xXlQ43Xl5o5WxlXl04305Q793WXQQZbxqo5olc766QXqobbo5loZ67acWQpZcZc6QbXZuQZZ0QQfZZZynuQQxyqccy40c0Qk5QuqZZWqQ4l69nl6ZQZoZuQclx3376W.html">
-			Sorry your browser does not support inline frames.
-		</iframe>
-	</body>
-	</html>
+
+<head>
+	<meta http-equiv="refresh" content="600">
+	<link rel="icon" type="image/png" sizes="16x16"
+		href="data:image/png;base64,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" />
+	<title>EHL TimeEdit - Dagens grupprum</title>
+</head>
+<style>
+	html,
+	body {
+		width: 100%;
+		height: 100%;
+		margin: 0px;
+	}
+</style>
+
+<body>
+	<iframe name="sve" frameborder="0" scrolling="yes" style="height: 100%; width: 100%; float: left;" height="100%"
+		width="100%" align="left"
+		src="https://cloud.timeedit.net/lu/web/ehl1/ri1XX036Z80074QQ03Z61Y7Y07y35Y075Q0mXY524m553111Y4476X7647456308XY349761X06035933XY43601Y4846Y4X6615807357404YY62X2144X07683025YX64715405614X8Y146776YX205o0Xm41174Q5647920ZY42QY717bQZY52Y7642X1625c00034Xu4064Z4n0cWYQ52u895WZZ3xXlQ43Xl5o5WxlXl04305Q793WXQQZbxqo5olc766QXqobbo5loZ67acWQpZcZc6QbXZuQZZ0QQfZZZynuQQxyqccy40c0Qk5QuqZZWqQ4l69nl6ZQZoZuQclx3376W.html">
+		Sorry your browser does not support inline frames.
+	</iframe>
+</body>
+
+</html>
